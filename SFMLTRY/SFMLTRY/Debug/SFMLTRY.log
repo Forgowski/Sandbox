@@ -1,0 +1,35 @@
+﻿SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: float __thiscall sf::Time::asSeconds(void)const " (__imp_?asSeconds@Time@sf@@QBEMXZ) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Clock::Clock(void)" (__imp_??0Clock@sf@@QAE@XZ) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Time __thiscall sf::Clock::getElapsedTime(void)const " (__imp_?getElapsedTime@Clock@sf@@QBE?AVTime@2@XZ) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QAE@III@Z) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Window::Window(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0Window@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::Window::~Window(void)" (__imp_??1Window@sf@@UAE@XZ) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Window::close(void)" (__imp_?close@Window@sf@@QAEXXZ) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QBE_NXZ) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QAE_NAAVEvent@2@@Z) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __thiscall sf::Window::getSize(void)const " (__imp_?getSize@Window@sf@@QBE?AV?$Vector2@I@2@XZ) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Window::setActive(bool)const " (__imp_?setActive@Window@sf@@QBE_N_N@Z) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Window::display(void)" (__imp_?display@Window@sf@@QAEXXZ) referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glClearDepth@8 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glColorPointer@16 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glDepthMask@4 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glDisable@4 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glDisableClientState@4 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glDrawArrays@12 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glEnable@4 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glEnableClientState@4 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glFrustum@48 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glLoadIdentity@0 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glMatrixMode@4 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glRotatef@16 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glTranslatef@12 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glVertexPointer@16 referenced in function _main
+SFMLTRY.obj : error LNK2019: unresolved external symbol __imp__glViewport@16 referenced in function _main
+C:\Users\krzys\Desktop\SFML-2.5.1\lib\sfml-graphics.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\krzys\Desktop\SFML-2.5.1\lib\sfml-window.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\krzys\Desktop\SFML-2.5.1\lib\sfml-system.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\krzys\source\repos\SFMLTRY\Debug\SFMLTRY.exe : fatal error LNK1120: 31 unresolved externals
