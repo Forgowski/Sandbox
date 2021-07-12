@@ -1,36 +1,36 @@
-﻿  SFMLTRY.cpp
-C:\Users\krzys\Desktop\repo 2\SFML sandbox\SFML sandbox\SFMLTRY.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\krzys\Desktop\repo 2\SFML sandbox\SFML sandbox\SFMLTRY.cpp(25,32): warning C4305: 'argument': truncation from 'double' to 'T'
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (SFML sandbox.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  SFMLTRY.cpp
+C:\Users\krzys\Desktop\repo 2\SFML_sandbox\SFML sandbox\SFMLTRY.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFML_sandbox\SFML sandbox\SFMLTRY.cpp(25,32): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ]
-C:\Users\krzys\Desktop\repo 2\SFML sandbox\SFML sandbox\SFMLTRY.cpp(40,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFML_sandbox\SFML sandbox\SFMLTRY.cpp(40,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\krzys\Desktop\repo 2\SFML sandbox\SFML sandbox\SFMLTRY.cpp(40,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFML_sandbox\SFML sandbox\SFMLTRY.cpp(40,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\krzys\Desktop\repo 2\SFML sandbox\SFML sandbox\SFMLTRY.cpp(117,103): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFML_sandbox\SFML sandbox\SFMLTRY.cpp(117,103): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=int
           ]
-C:\Users\krzys\Desktop\repo 2\SFML sandbox\SFML sandbox\SFMLTRY.cpp(117,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFML_sandbox\SFML sandbox\SFMLTRY.cpp(117,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=int
           ]
   Header.cpp
-C:\Users\krzys\Desktop\repo 2\SFML sandbox\SFML sandbox\Header.cpp(90,10): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\krzys\Desktop\repo 2\SFML sandbox\SFML sandbox\Header.cpp(97,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFML_sandbox\SFML sandbox\Header.cpp(90,10): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\krzys\Desktop\repo 2\SFML_sandbox\SFML sandbox\Header.cpp(97,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating code
-  241 of 241 functions (100.0%) were compiled.
-    169 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB not found, fall back to full compilation.
+  All 241 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  SFML sandbox.vcxproj -> C:\Users\krzys\Desktop\repo 2\SFML sandbox\x64\Release\SFML sandbox.exe
+  SFML sandbox.vcxproj -> C:\Users\krzys\Desktop\repo 2\SFML_sandbox\x64\Release\SFML_sandbox.exe

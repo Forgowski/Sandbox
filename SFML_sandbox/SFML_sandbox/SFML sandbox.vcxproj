@@ -24,6 +24,7 @@
     <ProjectGuid>{9d090158-47df-423b-b0c5-55c5b9829c32}</ProjectGuid>
     <RootNamespace>SFMLsandbox</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SFML_sandbox</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
