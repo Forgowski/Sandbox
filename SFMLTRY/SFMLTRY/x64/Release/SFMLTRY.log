@@ -1,33 +1,33 @@
 ﻿  SFMLTRY.cpp
-C:\Users\krzys\Desktop\repozytorium\SFMLTRY\SFMLTRY\SFMLTRY.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\krzys\Desktop\repozytorium\SFMLTRY\SFMLTRY\SFMLTRY.cpp(24,32): warning C4305: 'argument': truncation from 'double' to 'T'
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(13,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(29,34): warning C4305: 'argument': truncation from 'double' to 'T'
           with
           [
               T=float
           ]
-C:\Users\krzys\Desktop\repozytorium\SFMLTRY\SFMLTRY\SFMLTRY.cpp(39,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(44,61): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\krzys\Desktop\repozytorium\SFMLTRY\SFMLTRY\SFMLTRY.cpp(39,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(44,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\krzys\Desktop\repozytorium\SFMLTRY\SFMLTRY\SFMLTRY.cpp(116,103): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(121,105): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=int
           ]
-C:\Users\krzys\Desktop\repozytorium\SFMLTRY\SFMLTRY\SFMLTRY.cpp(116,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(121,80): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=int
           ]
   Generating code
-  1 of 241 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+  23 of 241 functions ( 9.5%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  SFMLTRY.vcxproj -> C:\Users\krzys\Desktop\repozytorium\SFMLTRY\x64\Release\SFMLTRY.exe
+  SFMLTRY.vcxproj -> C:\Users\krzys\Desktop\repo 2\SFMLTRY\x64\Release\SFMLTRY.exe
