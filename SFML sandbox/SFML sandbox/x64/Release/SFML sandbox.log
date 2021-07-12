@@ -1,0 +1,5 @@
+﻿  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 78 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SFML sandbox.vcxproj -> E:\cpp zadania\c++\visual studio\SFML sandbox\x64\Release\SFML sandbox.exe
