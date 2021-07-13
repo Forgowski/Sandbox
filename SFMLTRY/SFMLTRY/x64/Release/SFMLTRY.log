@@ -1,18 +1,19 @@
 ﻿  SFMLTRY.cpp
-C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(13,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(37,61): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(18,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(42,61): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(37,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(42,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
   Generating code
-  1 of 241 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
+  3 of 247 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   SFMLTRY.vcxproj -> C:\Users\krzys\Desktop\repo 2\SFMLTRY\x64\Release\SFMLTRY.exe

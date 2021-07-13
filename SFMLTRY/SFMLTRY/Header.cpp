@@ -1,5 +1,6 @@
 #include "Header.h"
 
+
 int howmany(int x, int* map)
 {
 
@@ -92,14 +93,16 @@ bool check(int x, int* map)
 	}
 	else return false;
 }
-void prepare(int *map)
+void prepare(int *map,int bombs)
 {
+	if (bombs < 5 || bombs>90) bombs = 20;
+
 	srand(time(0));				//mapa gry z bombami
 	for (int i = 0; i < 100; i++)
 	{
 		map[i] = 0;
 	}
-	for (int i = 0; i < 20; i++)    //ilosc bomb
+	for (int i = 0; i < bombs; i++)    //ilosc bomb
 	{
 		int f;
 		f = rand() % 100;

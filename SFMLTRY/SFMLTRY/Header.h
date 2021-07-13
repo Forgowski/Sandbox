@@ -10,5 +10,5 @@ using namespace sf;
 
 int howmany(int x, int* map);
 bool check(int x, int* map);
-void prepare(int *map);
+void prepare(int *map, int bombs);
 Vector2f GetMousPosition(Window *W);

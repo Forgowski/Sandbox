@@ -5,6 +5,11 @@
 
 int main()
 {
+	int bombs;
+	srand(time(0)); 
+	setlocale(LC_ALL,"");
+		cout << "WprowadŸ liczbe min jak¹ chcesz na swojej planszy minimalna liczba to 5 maksymalna 90: ";
+		cin >> bombs;
 	int restart = 1;
 		while (restart == 1)
 		{
@@ -22,7 +27,7 @@ int main()
 
 
 			int* map = new int[100]; //mapa
-			prepare(map);
+			prepare(map,bombs);
 
 
 			vector<RectangleShape> V;
