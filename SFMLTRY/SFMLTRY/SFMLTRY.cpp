@@ -25,13 +25,6 @@ int main()
 			prepare(map);
 
 
-			//////////////////////////////////////////////////////// kursor
-			RectangleShape cursor(Vector2f(0.0001, 0.0001));
-			cursor.setFillColor(Color(200, 200, 100));
-			cursor.setOrigin(0, 0);
-			////////////////////////////////////////////////////////
-
-
 			vector<RectangleShape> V;
 			for (int i = 0; i < 10; i++)
 			{
@@ -79,7 +72,7 @@ int main()
 							for (auto r : V)
 							{
 
-								if (r.getGlobalBounds().intersects(cursor.getGlobalBounds()))
+								if (r.getGlobalBounds().contains(GetMousPosition(&W)))
 								{
 
 									if (check(x, map))
@@ -118,7 +111,7 @@ int main()
 								x++;
 							}
 						}
-						if (e.type == Event::MouseMoved) cursor.setPosition(Mouse::getPosition(W).x, Mouse::getPosition(W).y);
+						
 					}
 				}
 				if (end == 1)
@@ -159,7 +152,6 @@ int main()
 				}
 				W.clear(sf::Color(0, 0, 0));
 				W.draw(H3);
-				W.draw(cursor);
 				for (auto r : V)
 				{
 					W.draw(r);

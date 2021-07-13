@@ -99,7 +99,7 @@ void prepare(int *map)
 	{
 		map[i] = 0;
 	}
-	for (int i = 0; i < 30; i++)    //ilosc bomb
+	for (int i = 0; i < 20; i++)    //ilosc bomb
 	{
 		int f;
 		f = rand() % 100;
@@ -109,4 +109,8 @@ void prepare(int *map)
 
 	}
 	
+}
+Vector2f GetMousPosition(Window *W)
+{
+	return Vector2f(Mouse::getPosition(*W));
 }
