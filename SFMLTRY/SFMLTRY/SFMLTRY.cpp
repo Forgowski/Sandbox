@@ -62,13 +62,11 @@ int main()
 
 					while (W.pollEvent(e))
 					{
-
+						int x = 0;
 						if (e.type == sf::Event::Closed || (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)))W.close();
 
 						if (e.type == Event::MouseButtonPressed && e.mouseButton.button == Mouse::Left)
 						{
-
-							int x = 0;
 							for (auto r : V)
 							{
 
@@ -107,6 +105,19 @@ int main()
 										}
 
 									}
+								}
+								x++;
+							}
+						}
+						if (e.type == Event::MouseButtonPressed && e.mouseButton.button == Mouse::Right)
+						{
+							
+							for (auto r : V)
+							{
+
+								if (r.getGlobalBounds().contains(GetMousPosition(&W)))
+								{
+									V[x].setFillColor(Color(255, 100, 100));
 								}
 								x++;
 							}
