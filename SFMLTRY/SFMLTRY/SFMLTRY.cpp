@@ -123,8 +123,12 @@ int main()
 							{
 
 								if (r.getGlobalBounds().contains(GetMousPosition(&W)))
-								{
-									V[x].setFillColor(Color(255, 100, 100));
+								{	
+									if (r.getFillColor()==Color(0,0,255))
+									{
+										V[x].setFillColor(Color(255, 100, 100));
+									}
+									
 								}
 								x++;
 							}
