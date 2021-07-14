@@ -92,23 +92,37 @@ int main()
 									{
 
 										ss.str("");
-										ss << howmany(x, map);
-										if (V[x].getFillColor() == Color(255, 255, 255))hmtw--;
-										V[x].setFillColor(Color(255, 255, 255));
-										H2.setString(ss.str());
-										H2.setPosition(V[x].getPosition().x + 10, V[x].getPosition().y);
-										H.push_back(H2);
-										hmtw++;
+										if (howmany(x, map) == 0)
+										{
+										
+											IfHowManyNull(x, map, V);																																							
+											
+										}
+										else 
+										{
+											ss << howmany(x, map);
+											V[x].setFillColor(Color(255, 255, 255));
+											H2.setString(ss.str());
+											H2.setPosition(V[x].getPosition().x + 10, V[x].getPosition().y);
+											H.push_back(H2);											
+										}
 
 										///////////////////////////////////////////////////////////////////////// sprawdzenie wygranej
-										if (hmtw == (100-bombs))
+										hmtw = 0;
+										for (auto r : V)
 										{
-											txt.setCharacterSize(50);
-											txt.setFillColor(Color(0, 100, 0));
-											txt.setPosition(150, 450);
-											ss.str("YOU WIN GOOD JOB");
-											txt.setString(ss.str());
-											end = 1;
+											if (r.getFillColor()==Color(255,255,255))hmtw++;
+											{	
+												if (hmtw == 100 - bombs)
+												{
+													txt.setCharacterSize(50);
+														txt.setFillColor(Color(0, 100, 0));
+														txt.setPosition(150, 450);
+														ss.str("YOU WIN GOOD JOB");
+														txt.setString(ss.str());
+														end = 1;
+												}
+											}
 										}
 
 									}

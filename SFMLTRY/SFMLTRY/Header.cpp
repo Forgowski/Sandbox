@@ -117,3 +117,88 @@ Vector2f GetMousPosition(Window *W)
 {
 	return Vector2f(Mouse::getPosition(*W));
 }
+void IfHowManyNull(int x,int *map, vector<RectangleShape>& V)
+{
+
+ V[x].setFillColor(Color(255, 255, 255));
+
+	if (x < 9 && x>0)
+	{
+		if (howmany(x - 1,map)==0 && V[x - 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x-1,map, V);
+		if (howmany(x + 1, map) == 0 && V[x + 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 1, map, V);
+		if (howmany(x + 9, map) == 0 && V[x + 9].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 9, map, V);
+		if (howmany(x + 10, map) == 0 && V[x + 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 10, map, V);
+		if (howmany(x + 11, map) == 0 && V[x + 11].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 11, map, V);
+		
+	}
+	else if (x < 99 && x>90)
+	{
+		if (howmany(x - 11, map) == 0 && V[x - 11].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 11, map, V);
+		if (howmany(x - 10, map) == 0 && V[x - 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 10, map, V);
+		if (howmany(x - 9, map) == 0 && V[x - 9].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 9, map, V);
+		if (howmany(x + 1, map) == 0 && V[x + 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 1, map, V);
+		if (howmany(x - 1, map) == 0 && V[x - 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 1, map, V);
+		
+	}
+	else if (x == 0)
+	{
+		if (howmany(x + 1, map) == 0 && V[x + 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 1, map, V);
+		if (howmany(x + 10, map) == 0 && V[x + 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 10, map, V);
+		if (howmany(x + 11, map) == 0 && V[x + 11].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 11, map, V);
+		
+	}
+	else if (x == 9)
+	{
+		if (howmany(x - 1, map) == 0 && V[x - 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 1, map, V);
+		if (howmany(x + 10, map) == 0 && V[x + 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 10, map, V);
+		if (howmany(x + 9, map) == 0 && V[x + 9].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 9, map, V);
+		
+	}
+	else if (x == 90)
+	{
+		if (howmany(x - 10, map) == 0 && V[x - 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 10, map, V);
+		if (howmany(x + 1, map) == 0 && V[x + 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 1, map, V);
+		if (howmany(x - 9, map) == 0 && V[x - 9].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 9, map, V);
+		
+	}
+	else if (x == 99)
+	{
+		if (howmany(x - 10, map) == 0 && V[x - 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 10, map, V);
+		if (howmany(x - 11, map) == 0 && V[x - 11].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 11, map, V);
+		if (howmany(x - 1, map) == 0 && V[x - 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 1, map, V);
+		
+	}
+	else if (x % 10 == 0)
+	{
+		if (howmany(x - 10, map) == 0 && V[x - 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 10, map, V);
+		if (howmany(x - 9, map) == 0 && V[x - 9].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 9, map, V);
+		if (howmany(x + 1, map) == 0 && V[x + 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 1, map, V);
+		if (howmany(x + 11, map) == 0 && V[x + 11].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 11, map, V);
+		if (howmany(x + 10, map) == 0 && V[x + 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 10, map, V);
+		
+	}
+	else if (x % 10 == 9)
+	{
+		if (howmany(x - 10, map) == 0 && V[x - 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 10, map, V);
+		if (howmany(x - 11, map) == 0 && V[x - 11].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 11, map, V);
+		if (howmany(x - 1, map) == 0 && V[x - 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 1, map, V);
+		if (howmany(x + 10, map) == 0 && V[x + 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 10, map, V);
+		if (howmany(x + 9, map) == 0 && V[x + 9].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 9, map, V);
+		
+	}
+	else
+	{
+		
+		if (howmany(x - 1, map) == 0 && V[x - 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 1, map, V);
+		if (howmany(x + 1, map) == 0 && V[x + 1].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 1, map, V);
+		if (howmany(x + 11, map) == 0 && V[x + 11].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 11, map, V);
+		if (howmany(x + 10, map) == 0 && V[x + 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 10, map, V);
+		if (howmany(x + 9, map) == 0 && V[x + 9].getFillColor() != Color(255, 255, 255))IfHowManyNull(x + 9, map, V);
+		if (howmany(x - 11, map) == 0 && V[x - 11].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 11, map, V);
+		if (howmany(x - 10, map) == 0 && V[x - 10].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 10, map, V);
+		if (howmany(x - 9, map) == 0 && V[x - 9].getFillColor() != Color(255, 255, 255))IfHowManyNull(x - 9, map, V);
+		
+
+
+	}
+}
