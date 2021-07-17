@@ -80,10 +80,10 @@ int main()
 
 									if (check(x, map))
 									{
-										txt.setCharacterSize(50);
+										txt.setCharacterSize(35);
 										txt.setFillColor(Color(255, 0, 0));
 										txt.setPosition(150, 450);
-										ss.str("GAME OVER PUSH ESC");
+										ss.str("GAME OVER PRESS ESC TO TURN OFF");
 										txt.setString(ss.str());
 										V[x].setFillColor(Color(200, 0, 0));
 										end = 1;
@@ -94,8 +94,8 @@ int main()
 										ss.str("");
 										if (howmany(x, map) == 0)
 										{
-										
-											IfHowManyNull(x, map, V);																																							
+											
+											IfHowManyNull(x, map, V,H,H2);																																							
 											
 										}
 										else 
@@ -118,7 +118,7 @@ int main()
 													txt.setCharacterSize(50);
 														txt.setFillColor(Color(0, 100, 0));
 														txt.setPosition(150, 450);
-														ss.str("YOU WIN GOOD JOB");
+														ss.str("YOU WON GOOD JOB");
 														txt.setString(ss.str());
 														end = 1;
 												}
@@ -132,6 +132,7 @@ int main()
 						}
 						if (e.type == Event::MouseButtonPressed && e.mouseButton.button == Mouse::Right)
 						{
+							
 							
 							for (auto r : V)
 							{
@@ -192,10 +193,12 @@ int main()
 				{
 					W.draw(r);
 				}
+
 				for (auto r : H)
 				{
 					W.draw(r);
 				}
+
 				W.draw(txt);
 				W.display();
 			}

@@ -1,0 +1,18 @@
+﻿  SFMLTRY.cpp
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(18,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(42,61): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\SFMLTRY.cpp(42,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Header.cpp
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\Header.cpp(91,10): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\krzys\Desktop\repo 2\SFMLTRY\SFMLTRY\Header.cpp(100,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  SFMLTRY.vcxproj -> C:\Users\krzys\Desktop\repo 2\SFMLTRY\x64\Debug\SFMLTRY.exe
